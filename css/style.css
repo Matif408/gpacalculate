@@ -21,7 +21,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-
+  position: relative;
   font-size: 1.6rem;
   font-weight: 300;
   box-sizing: border-box;
@@ -48,7 +48,7 @@ button {
   margin-inline: auto;
 }
 .width {
-  max-width: 80rem;
+  width: 80rem;
 }
 /* //////////////////////// */
 /* typography */
@@ -85,12 +85,12 @@ button {
 /* ////////////////////////// */
 /* Header */
 .header {
-  max-height: 60rem;
   min-height: 60rem;
   background-color: var(--sea);
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
+  position: relative;
 }
 
 .content {
@@ -116,6 +116,9 @@ button {
   box-shadow: 0.5rem 0.5rem 1rem #ddd7d7;
   padding: 3rem 2rem;
   border-radius: 1rem;
+
+  position: absolute;
+  transform: translate(15%, -80%);
 }
 .description {
   display: flex;
