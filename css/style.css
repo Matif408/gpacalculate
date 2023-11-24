@@ -116,6 +116,7 @@ button {
   box-shadow: 0.5rem 0.5rem 1rem #ddd7d7;
   padding: 3rem 2rem;
   border-radius: 1rem;
+  transform: translate(-10rem, -30rem);
 }
 .description {
   display: flex;
